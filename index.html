@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mémoire LUKAPA - Système d'Alarme ESP32</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #1a1a2e, #16213e);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .welcome-card {
+            background: white;
+            border-radius: 30px;
+            padding: 50px;
+            text-align: center;
+            max-width: 500px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+        }
+        .welcome-card h1 {
+            color: #2c3e50;
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        .welcome-card h2 {
+            color: #3498db;
+            margin-bottom: 20px;
+        }
+        .info {
+            background: #ecf0f1;
+            padding: 20px;
+            border-radius: 15px;
+            margin: 20px 0;
+        }
+        .btn-enter {
+            display: inline-block;
+            background: #3498db;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        .btn-enter:hover {
+            background: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <div class="welcome-card">
+        <h1>🚨 MÉMOIRE LUKAPA</h1>
+        <h2>Système d'Alarme Connecté - ESP32</h2>
+        <p>Projet IoT de fin d'études</p>
+        <div class="info">
+            <p>📞 LUKAPA: +243 991 136 361</p>
+            <p>🔬 Capteur Ultrason + Sirène + Contrôle Web</p>
+        </div>
+        <a href="dashboard.html" class="btn-enter">🔐 Accéder au système</a>
+    </div>
+</body>
+</html>
